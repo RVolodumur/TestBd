@@ -1,0 +1,111 @@
+@import url("/style/font-awesome-4.7.0/css/font-awesome.min.css");
+body{
+  background-image: url("/image/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: red;
+
+}
+.allCategory{
+  height: 40%;
+  weight: 20%;
+  border: red solid 2px;
+  margin: auto;
+  padding: 10px;
+
+}
+/* Стили для неактивного модального окна */
+.modalReg {
+  background: #fff;
+  left: 50%;
+  margin: -250px 0 0 -40%;
+  position: absolute;
+  top: -50%;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/* Активация модального окна в состоянии :target */
+.modalReg:target {
+  top: 50%;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.modalReg header, .modalReg footer {
+  background: #f7f7f7;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+.modalReg footer {
+  border:none;
+  border-top: 1px solid #e7e7e7;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+}
+.modalReg section, .modalReg header, .modalReg footer {
+  padding: 15px;
+  z-index: 200;
+}
+.modalReg h2, div {
+  margin: 0 auto;
+}
+.modalReg .btn {
+  float: right;
+}
+.modalLog {
+  background: #fff;
+  left: 50%;
+  margin: -250px 0 0 -40%;
+  position: absolute;
+  top: -50%;
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/* Активация модального окна в состоянии :target */
+.modalLog:target {
+  top: 50%;
+  transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.modalLog header, .modalLog footer {
+  background: #f7f7f7;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+.modalLog footer {
+  border:none;
+  border-top: 1px solid #e7e7e7;
+  border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+}
+.modalLog section, .modalLog header, .modalLog footer {
+  padding: 15px;
+  z-index: 200;
+}
+.modalLog h2, div {
+  margin: 0 auto;
+}
+.modalLog .btn {
+  float: right;
+}
